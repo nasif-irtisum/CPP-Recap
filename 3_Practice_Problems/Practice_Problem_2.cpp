@@ -19,5 +19,6 @@ int main ()
         if (i==n-1) cout << B[i] << endl;
         else cout << B[i] << " ";
     }
+    delete []A;
     return 0;
 }
